@@ -4,3 +4,6 @@ This is a repository for a group of girl scouts who are building an air quality 
 
 Code breakdown:
 
+Wiring:
+
+![Alt text](/lcdScreen_bb.png?raw=true "Optional title")
