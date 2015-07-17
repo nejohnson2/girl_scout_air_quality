@@ -59,7 +59,7 @@ void setup() {
   }
   Serial.begin(9600);
   Wire.begin();
-  RTC.begin();
+  RTC.adjust(DateTime(F(__DATE__), F(__TIME__)));
 
   // Make sure the clock is running
   if (! RTC.isrunning()) {
